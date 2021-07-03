@@ -13,7 +13,7 @@ of which are commented on in this work.
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-The code shared here is used to solve the Orr-Sommerfeld eigenvalue problem by the implementation of two numerical schemes in finite-difference and spectral methods. The code also generates plots of the eigenspectra allowing for visual analysis of the linear stability and consequently physical interpretation of the numerical solution.     
+The MATLAB code shared here is used to solve the Orr-Sommerfeld eigenvalue problem by the implementation of two numerical schemes in finite-difference and spectral methods. The code also generates plots of the eigenspectra allowing for visual analysis of the linear stability and consequently physical interpretation of the numerical solution. 
 
 
 
