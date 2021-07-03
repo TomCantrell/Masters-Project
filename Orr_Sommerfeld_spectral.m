@@ -25,7 +25,6 @@ A;
 C; 
 E = C\A;
 E(N+1,N)=0; % Add another row to make the matrix square
-% CHANGE
    
 % Constructing the matrix which is used to determine the matrix formulation
 % of the cross terms in the Orr-Sommerfeld equation U*phi, U*phi"
