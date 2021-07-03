@@ -108,7 +108,7 @@ for i=1:length(f)
 end
 
 %-------   Plotting the data obtained from solving the OS problem  --------
-% Plot eigenvalue spectrum
+% Plot eigenvalues
 close(figure(1))
 figure(1)
 plot(eigvals(1:length(eigvals)),"o","color","k")
@@ -157,7 +157,7 @@ for j=1:length(eig_fn)
 end
 
 l=0;
-approx = 6; % this controls the number of arrows plotted i.e resolution of vector field
+approx = 6;
 x_approx = []; z_approx = [];
 for k=1:approx:length(z)
     l = l+1;
