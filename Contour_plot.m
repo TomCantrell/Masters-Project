@@ -1,5 +1,6 @@
-% DOESNT RELLLY WORK
+% DOESNT REALLY WORK
 %  ================ Contour plot of the Neutral curve  ====================
+
 % ===================== Inital Guess ====================
 c_r = [];
 Re = 5780;

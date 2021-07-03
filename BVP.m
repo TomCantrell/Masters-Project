@@ -1,6 +1,11 @@
-% Newton's iterative method
-% Guess f using f(z)=z(1-z) 
 
+% ===============================================================
+% Utilising a local iterative method to solve the generalzied
+% eigenvalue problem more quickly.
+% ===============================================================
+% ( Boundary value problem )
+
+% Guess f using f(z)=z(1-z) 
 % 1D BVP 
 lambdaG = 8.5;  % Initial guess for first eigenvalue (pi^2)  
 for m=3:4

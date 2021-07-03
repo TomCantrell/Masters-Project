@@ -1,5 +1,6 @@
 
 % Spectral implementation of harmonic problem
+
 format long
 %%
 N=8;

@@ -1,8 +1,10 @@
 
 % -------- Formulating numerical solution of Orr-Sommerfeld Eqn ----------
+
 % Solving the generalized EVP with Re_c = 5772.22 and alpha=1.02056 should 
 % yield an eigenvalue which has c_i approx 0. This corresponds to the most 
 % unstable mode, the onset of instability that is.
+
 %%
 % =========================================================================
 % ------ Finite-difference implementation - Orr-Sommerfeld equation -------

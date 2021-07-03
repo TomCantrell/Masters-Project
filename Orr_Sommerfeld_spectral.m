@@ -2,6 +2,8 @@
 % =====================================================================
 % ----- Spectral method implementation - Orr-Sommerfeld equation ------
 % =====================================================================
+
+
 %% Formulate the generalized eigenvalue problem 
 Re = 5772.22; % Reynolds number
 alpha = 1.02056; % Wavenumber

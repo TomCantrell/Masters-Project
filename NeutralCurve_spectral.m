@@ -1,8 +1,9 @@
 
-%% NEUTRAL CURVE AND PHASE SPEED CURVE
-% Loop over all possible alpha,Re combos since code is fast and do contour
-% plot with neutral curve line 
+% ===============================================================
+% -----  Linear neutral curve obtained by spectral methods  ----- 
+% ===============================================================
 
+%%
 % 500secs
 Re_upper=[];
 Re_lower=[];

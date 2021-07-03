@@ -1,6 +1,10 @@
 
+% =================================================
+% ---- Computation of critical Reynolds number ----
+% =================================================
+
 % Using the Newton-Raphson root-finding method to the critical Reynolds
-% number
+% number, utilising the spectral implementation.
 
 N=54; %N+1 vary the number of Chebyshev polynomials used in the approxn
 Re=5500:50:7000;

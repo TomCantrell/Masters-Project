@@ -1,4 +1,12 @@
 
+% =======================================================
+% --------  Neutral curve of stability - PPF    ---------
+% =======================================================
+
+% Computation of the neutral curve of linear stability obtained by
+% utilising the local iterative method derived from the finite-difference
+% implementation. 
+
 % ===================== Inital Guess ====================
 c_r = [];
 Re = 5772.22;
@@ -255,8 +263,6 @@ legend("Re=5000","Re=7000","Re=9000","Re=11000", "Location","Best")
 
 %% ========================================================================
 % Wave speed before the onset of instability 
-
-
 
 % =========  Plotting the wave speed with the Reynolds number  ============
 figure(3)

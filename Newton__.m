@@ -1,5 +1,9 @@
 
-% Newton__ spits out approximation to least stable eignevlaue c
+% ==================================================================
+% --  Local iterative method used in obtaining the neutral curve  --
+% ==================================================================
+
+%
 
 function [PsiG] = Newton__(PsiG,Re,alpha)
     correction=[];

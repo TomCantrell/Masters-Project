@@ -1,5 +1,7 @@
 
-% Plot of the first 5 Chebyshev polynomials
+% ============================================================
+% ------  Plot of the first few Chebyshev polynomials  -------
+% ============================================================
 
 z = -1:0.025:1; 
 T_0 = chebyshevT(0,z);

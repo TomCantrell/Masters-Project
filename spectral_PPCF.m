@@ -3,7 +3,7 @@
 % Reynolds number and wall speed in Poiseuille-Couette flow by using the 
 % spectral-tau method already developed but modified slightly for the
 % hybrid flow
-
+% ----------------------------------------------------------------
 function c = spectral_PPCF(Re,alpha,u_w,N)
     % Working out E matrix 
     A = zeros(N);

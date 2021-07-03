@@ -1,4 +1,9 @@
 
+% ====================================================================
+% ----  Spectral implementation to obtain least stable eigenvalue ----  
+% ====================================================================
+
+%%
 % A function that takes a wave number alpha and a Reynolds number Re as
 % input and the least stable eigenvalue is then returned 
 
@@ -74,18 +79,5 @@ function c = Spectral(Re,alpha,N)
     end
     c = eig_crit;
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

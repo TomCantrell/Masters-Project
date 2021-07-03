@@ -1,6 +1,12 @@
-% 
-% % =====================  Newton's Iteration ============================
-% % A function that takes guess and then iterates
+
+% =================================================================
+% =====================  Newton's Iteration =======================
+% =================================================================
+
+% A function that takes guess and then iterates to a more accurate solution
+% to the Orr-Sommerfeld problem. This isn't used in obtaining the neutral
+% curve.
+
 function [Psig] = Newton(Re,alpha,PsiG)
     correction=[];
     cG = PsiG(1); 

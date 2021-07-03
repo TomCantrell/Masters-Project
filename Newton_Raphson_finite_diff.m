@@ -1,6 +1,11 @@
 
+% =================================================
+% ---- Computation of critical Reynolds number ----
+% =================================================
+
 % Newton-Raphson implementation to obtain an approximation to the critical
-% Reynolds number in plane Poiseuille flow
+% Reynolds number in plane Poiseuille flow, by using finite-difference
+% methods.
 
 % Our initial guess required
 Re = 5750;
