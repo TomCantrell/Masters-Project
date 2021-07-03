@@ -1,5 +1,9 @@
 
-% test file for solving the linear one-dimensional eigenvalue problem 
+% ===================================================================
+% ------ Solving the linear one-dimensional eigenvalue problem ------
+% ===================================================================
+
+% *with logarithmic plot of error
 
 k = 5; % First k Eigenvalues 
 p = 11;
@@ -44,7 +48,7 @@ ylabel("f")
 xlim([-0.1 1.1])
 ylim([-1.1 1.1])
 
-%% create plot
+%% creating plot
 gradient = zeros([k 1]);
 for j = 1:k
     loge = log(M(j:j,:));
@@ -59,6 +63,3 @@ ylabel("log(|\lambda^2 - i^2\pi^2|)")
 %title("Log plot of Error of Eigenvalues vs step size h.")
 legend("\lambda_1","\lambda_2","\lambda_3","\lambda_4","\lambda_5","Location","northwest") 
 grid on 
-
-
-
