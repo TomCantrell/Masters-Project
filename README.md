@@ -1,6 +1,6 @@
 # Masters-Project
 
-                                                   ----  Abstract  ----      
+                                               ----  Abstract  ----      
 The linear stability of plane Poiseuille flow is studied by examining the solution to the
 Orr-Sommerfeld eigenvalue problem by the implementation of two numerical methods.
 The numerical schemes utilised are that of finite-difference methods and spectral methods, where it is shown that the spectral-tau method obtains very accurate results more
